@@ -1,0 +1,8 @@
+1. #-*- coding: utf-8 -*- - включить другие языки в программу
+
+2. print "some text %s and number: %d" % ("hey!", 2.7) - вставить значение/число в строку
+
+3. "I am 6'2\" tall."
+'I am 6\'2" tall.'
+# escape double- quote inside string
+# escape single- quote inside string
