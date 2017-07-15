@@ -6,3 +6,18 @@
 'I am 6\'2" tall.'
 # escape double- quote inside string
 # escape single- quote inside string
+
+4. Work with files:
+
+	txt.open(filename, 'mode(r,w,a,r+,w+)')
+	txt.truncate()
+	txt.read()
+	txt.readline()
+	txt.write(some_text)
+	txt.close()
+
+5. Unpacking: 
+
+first, second, third = argv
+
+
