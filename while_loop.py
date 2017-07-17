@@ -54,7 +54,7 @@ while_loop_3(0, 1)
 def some_new_loop(i, increase_to, increment):
     numbers_5 = []
 
-    for element_5 in (i, increase_to, increment):
+    for element_5 in range(i, increase_to, increment):
         numbers_5.append(element_5)
     print "There are elements: ", numbers_5
 
