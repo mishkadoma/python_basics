@@ -6,13 +6,16 @@ def get_player_name():
     player_name = raw_input("> ")
     return player_name
 
-def game_start(amount_of_lives):
+def game_start():
     """
     All that block purpose is to start the game
     """
+    global amount_of_lives
     if amount_of_lives < 1:
         print "You have no more lives."
         exit(1)
+    else:
+        print "you have %d lives" % amount_of_lives
 
     print "Enter your name: \t"
 
@@ -47,20 +50,20 @@ def game_start(amount_of_lives):
             print "Wrong option. An error occurse"
             exit(1)
     elif ginger == 'no' or ginger == 'n':
-        print "You cannot play my game 'cause you are not Ginger Tall. May change your mind and come back later?"
+        print "You cannot play my game 'cause you are not Ginger Tall. \nMay change your mind and come back later?"
         exit(1)
     else:
         print "I can't understand you. Just type 'yes' or 'no' next time"
-        game_over(amount_of_lives)
+        game_over()
 
 def level_2():
     """Under construction"""
     print "Hidden level!"
 
-    
+
 def game_over():
     print "Press 'Enter' to give it another try. Press 'CTRL + C' to quit"
     raw_input()
-    game_start(amount_of_lives)
+    game_start()
 
-game_start(amount_of_lives)
+game_start()
