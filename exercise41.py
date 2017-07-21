@@ -29,7 +29,7 @@ def convert(snippet, phrase):
     class_names = [w.capitalize() for w in
                   random.sample(WORDS, snippet.count("%%%"))]
     other_names = random.sample(WORDS, snippet.count("***"))
-    result = []
+    results = []
     param_names = []
 
     for i in range(0, snippet.count("@@@")):
