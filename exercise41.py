@@ -52,7 +52,7 @@ def convert(snippet, phrase):
         for word in param_names:
             result = result.replace("@@@", word, 1)
 
-        result.append(result)
+        results.append(result)
 
     return results
 
