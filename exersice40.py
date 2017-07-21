@@ -28,7 +28,7 @@ class Animal(object):
 
     def show_yourself(self, height):
         self.height = height
-        print "I can catch a ball at the height of %d" % self.height
+        print "I can catch a ball at the height of %d" % height
         print "Also! Tale: %s, Color: %s, Sound = %s" % (self.tale, self.color, self.sound)
         print "=" * 10
 
