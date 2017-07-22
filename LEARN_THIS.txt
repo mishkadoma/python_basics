@@ -8,7 +8,7 @@
 8. exec
 9. in
 10. raise
-11. contimue
+11. continue
 12. finally
 13. is
 14. lambda
