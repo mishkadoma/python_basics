@@ -1,0 +1,15 @@
+1. global
+2. with
+3. assert
+4. passion
+5. yield
+6. break
+7. except
+8. exec
+9. in
+10. raise
+11. contimue
+12. finally
+13. is
+14. lambda
+15. try
